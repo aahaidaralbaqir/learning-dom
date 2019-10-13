@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>My BookList APP</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <header>
+      <h1>JS CRASH COURSE </h1>
+  </header>
+  <section>
+      <form id="book-form">
+          <h1>MY BOOKLIST APP</h1>
+          <br>
+          <div class="msg"></div>
+          <div id="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="title">
+          </div>
+          <div id="form-group"> 
+              <label for="author">Author</label>
+              <input type="text" id="author">
+          </div>
+          <div id="form-group"> 
+            <label for="isbn">ISBN#</label>
+            <input type="text" id="isbn">
+        </div>
+          <div id="form-group">
+              <input type="submit" class="btn" value="Submit">
+          </div>
+          <table>
+            <thead>
+               <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>ISBN#</th>
+                  <th></th>
+               </tr>
+            </thead>
+            <br>
+            <tbody id="book-list">
+
+            </tbody>
+         </table>
+      </form>
+<script src="./script.js"></script>
+</body>
+</html>

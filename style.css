@@ -1,0 +1,80 @@
+body{
+   background-color:#ececec;
+}
+*{
+   margin:0px;
+   padding:0px;
+}
+header{
+   width: 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color:#ffc23a;
+   padding:10px 0px 10px 0px;
+   text-align:center;
+   color:white;
+}
+form{
+   border-radius:5px;
+   width:30%;
+   height: auto;
+   padding:30px 10px;
+   margin:40px auto;
+   background-color:white;
+   box-shadow:1px 2px 3px rgba(224,224,224,0.3);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+   text-align: center;
+   font-size: 35px;
+}
+#form-group{
+   width: 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 17px;
+   box-sizing: border-box;
+   margin-top:10px;
+}
+
+#form-group input[type=text],input[type=email]{
+   width:90%;
+   margin-top:10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 17px;
+   padding:10px 13px;
+   outline:none;
+   border:1px solid #e0e0e0;
+}
+#form-group input[type=submit]{
+   border:none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 17px;
+   padding:5px 20px;
+   color:whitesmoke;
+   background-color:#f9b723;
+   border-radius:5px;
+}
+.alert-danger{
+   width:87%;
+   padding: 10px 30px 10px 10px;
+   border-radius: 5px;
+   color:whitesmoke;
+   background-color:red;
+}
+.alert-success{
+   width:87%;
+   padding: 10px 30px 10px 10px;
+   border-radius: 5px;
+   color:whitesmoke;
+   background-color:green;
+}
+table{
+   width:100%;          
+}
+.delete{
+   color:whitesmoke;
+   background-color:red;
+   padding:5px 15px;
+   border-radius: 3px;
+   text-decoration: none;
+   font-weight: bold;
+}
